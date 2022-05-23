@@ -5,5 +5,33 @@
 body {
     background: rgba(29, 83, 28, 0.9);
     color: white;
+    margin: 0;
 }
 
+.socialLinks {
+    height: auto;
+    width: 600px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nameLogo::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/greenivy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(5px);
+    transition: all 1000ms;
+    
+}
+
+.nameLogo {
+    height:auto;
+    width: 500px;
+    font-family: "Vesper Libre", "Lora", sans-serif;
