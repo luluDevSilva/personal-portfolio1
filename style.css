@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(29, 83, 28, 0.9);
+    color: white;
+}
+
